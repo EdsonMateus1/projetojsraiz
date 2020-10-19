@@ -121,20 +121,22 @@ img {
 }
 
 #user-card__article{
-  display: flex;
-  flex-direction: column; 
-
+ margin-top: 2rem;
 }
+
 #usar-card__img{
   width: 100%;
 }
 
 #user-card__avatar{
+  margin: -55px auto;
+  height: 88px;
+  width: 88px;
   overflow: hidden;
-  border-radius: 50%;
-  background-color: #fff;
-  position: relative;
-  top: -30px;
-  margin: 0 auto;
-  height: 86px;
+}
+
+#user-card__content{
+ font-size: 2rem;
+ padding: 6rem 2rem 1rem;
+ text-align: center;
 }
