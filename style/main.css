@@ -256,7 +256,27 @@ img {
 /*contend-section*/
 
 /*lates-section*/
+#latest-section {
+}
 
+.latest-section__title {
+  background-color: #63c6ae;
+  padding: 1rem;
+}
+
+.latest-section__title h2 {
+  color: #fff;
+  font-size: 3rem;
+
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.container-img {
+}
+
+#latest-section-contend {
+}
 /*lates-section*/
 
 @media screen and (min-width: 1024px) {
