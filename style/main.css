@@ -224,10 +224,8 @@ img {
   color: #fff;
 
   font-size: 2rem;
-  width: 50%;
-  height: 50px;
   border-radius: 2px;
-
+  padding: 1rem 4rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -272,7 +270,13 @@ img {
   font-weight: 400;
 }
 
-.container-img {
+.latest-section__thumbs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+}
+
+.latest-section__thumbs img {
+  display: block;
 }
 
 #latest-section-contend {
@@ -284,9 +288,5 @@ img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
-  }
-
-  .button {
-    width: 150px;
   }
 }
