@@ -197,21 +197,52 @@ img {
 }
 /*user-card-section*/
 
-
 /*contend-section*/
 #contend {
 }
 
+.contend__anticle {
+  margin: 2rem 0;
+}
 
+.contend__anticle h3 {
+  color: #737c85;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
 
+.contend__anticle p {
+  font-size: 1.7rem;
+  color: #929da5;
+}
 
+.button {
+  color: #fff;
 
+  font-size: 2rem;
+  width: 50%;
+  height: 40px;
 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
+  border-radius: 2px;
+}
 
-
-
-
+.btn-primary {
+  background-color: #63c6ae;
+}
+.btn-secundary {
+  background-color: #242c2c;
+}
+.btn-container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
 
 /*contend-section*/
 
@@ -220,5 +251,9 @@ img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
+  }
+
+  .button{
+    width: 150px;
   }
 }
