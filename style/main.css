@@ -209,11 +209,15 @@ img {
   color: #737c85;
   font-size: 2rem;
   margin-bottom: 1rem;
+
+  font-weight: 400;
 }
 
 .contend__anticle p {
   font-size: 1.7rem;
   color: #929da5;
+
+  word-spacing: 3px;
 }
 
 .button {
@@ -221,21 +225,27 @@ img {
 
   font-size: 2rem;
   width: 50%;
-  height: 40px;
+  height: 50px;
+  border-radius: 2px;
 
   display: inline-flex;
   align-items: center;
   justify-content: center;
 
-  border-radius: 2px;
+  transition: background 0.5s;
+}
+.button:hover {
+  background-color: #929da5;
 }
 
 .btn-primary {
   background-color: #63c6ae;
 }
+
 .btn-secundary {
   background-color: #242c2c;
 }
+
 .btn-container {
   margin-top: 2rem;
   display: flex;
@@ -243,8 +253,11 @@ img {
   justify-content: center;
   gap: 2rem;
 }
-
 /*contend-section*/
+
+/*lates-section*/
+
+/*lates-section*/
 
 @media screen and (min-width: 1024px) {
   #user-card-section {
@@ -253,7 +266,7 @@ img {
     gap: 1.5rem;
   }
 
-  .button{
+  .button {
     width: 150px;
   }
 }
