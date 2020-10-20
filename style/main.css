@@ -11,6 +11,7 @@
 body,
 html {
   font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
 }
 
 a {
@@ -19,6 +20,16 @@ a {
 
 img {
   max-width: 100%;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* header */
@@ -46,6 +57,7 @@ img {
   display: flex;
   flex-direction: column;
 }
+
 #header__nav ul li {
   list-style: none;
   text-transform: uppercase;
@@ -73,9 +85,9 @@ img {
 
 .header__nav-li {
 }
+/* header */
 
 /* hero section */
-
 #hero-section {
   height: 80vh;
 
@@ -96,7 +108,7 @@ img {
 
   padding: 2rem;
 
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
 
 #hero__text {
@@ -104,12 +116,13 @@ img {
   color: #fff;
 
   padding: 1.6rem;
-  
-  font-size: 1.6rem;
+
+  font-size: 1.4rem;
 }
+
 #hero__btn {
   border: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: rgba (0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   margin-top: 1rem;
   padding: 2rem;
 
@@ -119,24 +132,93 @@ img {
   text-transform: uppercase;
   font-size: 2rem;
 }
+/* hero section */
 
-#user-card__article{
- margin-top: 2rem;
+/*user-card-section*/
+#user-card-section {
+  margin-top: 1rem;
+}
+.user-card__article {
+  display: flex;
+  flex-direction: column;
 }
 
-#usar-card__img{
+.user-card__article:hover {
+  outline: 5px solid #63c6ae;
+  outline-offset: -5px;
+}
+
+.user-card__article:hover .user-card__avatar {
+}
+
+.user-card__article:hover .user-card__content h2 {
+  color: #63c6ae;
+}
+
+.user-card__article:hover .user-card__content p {
+  color: #63c6ae;
+}
+
+.usar-card__img {
   width: 100%;
 }
 
-#user-card__avatar{
-  margin: -55px auto;
+.user-card__avatar {
+  align-self: center;
+
   height: 88px;
   width: 88px;
+
+  position: relative;
+
+  top: -55px;
+
   overflow: hidden;
 }
 
-#user-card__content{
- font-size: 2rem;
- padding: 6rem 2rem 1rem;
- text-align: center;
+.user-card__content {
+  position: relative;
+  padding: 2rem;
+
+  top: -70px;
+
+  font-size: 2rem;
+  text-align: center;
+
+  border-left: 1px solid #dbe1e7;
+}
+
+.user-card__content h2 {
+  color: #737c85;
+}
+
+.user-card__content p {
+  color: #929da5;
+}
+/*user-card-section*/
+
+
+/*contend-section*/
+#contend {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*contend-section*/
+
+@media screen and (min-width: 1024px) {
+  #user-card-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
 }
