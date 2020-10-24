@@ -272,12 +272,15 @@ img {
   font-weight: 400;
 }
 
-.container-img {
+.latest-section__thumbs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
 }
 
-#latest-section-contend {
+.latest-section__thumbs img {
+  display: block;
 }
-/*lates-section*/
+
 
 @media screen and (min-width: 1024px) {
   #user-card-section {
