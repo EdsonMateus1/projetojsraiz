@@ -214,14 +214,14 @@ ul {
 
 .contend__anticle h3 {
   color: #737c85;
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-bottom: 1rem;
 
   font-weight: 400;
 }
 
 .contend__anticle p {
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   color: #929da5;
 
   word-spacing: 3px;
@@ -282,6 +282,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-auto-rows: auto;
+  gap: 1px;
   /* 
   auto-fill Cria 
   automaticamente  minmax um total de colunas que acomode itens com no mínimo 250px de 
@@ -307,6 +308,7 @@ ul {
 
 .container-img__laptop-slider figure {
   display: inline-block;
+  margin: 0 2rem;
 }
 /*slide-show*/
 
@@ -346,20 +348,25 @@ ul {
 }
 
 #footer h2 {
-  margin-bottom: 50px;
   text-transform: uppercase;
   font-size: 3rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
 }
 
 #footer p {
-  margin: 20px 0px;
   font-size: 2rem;
+}
+
+#footer ul {
+  width: 200px;
 }
 
 #footer ul li a {
   color: #454e51;
-  margin-left: 4rem;
   font-size: 2rem;
+  display: block;
+  margin: 2rem 0;
 }
 
 /*footer*/
@@ -388,12 +395,37 @@ ul {
 
   #header__nav ul li a {
     color: #242c2c;
-    font-weight: 700;
+    font-weight: normal;
   }
 
   #user-card-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
+  }
+
+  #contend .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+  .latest-section__thumbs {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  #footer {
+    justify-content: center;
+    align-items: center;
+  }
+
+  #footer .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 200px;
+  }
+  #footer .container ul {
+    margin-left: 1rem;
+  }
+  #footer .container ul li a {
+    text-decoration: underline;
+    margin: 0px;
   }
 }
