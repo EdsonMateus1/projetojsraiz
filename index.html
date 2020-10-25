@@ -8,7 +8,7 @@
     <meta name="description" content="descrição bacanuda" />
     <meta name="keywords" content="html5, tecnologia" />
 
-    <!-- Icones fontawesome -->
+    <!--Icones fontawesome-->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -16,7 +16,7 @@
       crossorigin="anonymous"
     />
 
-    <!-- Fonts -->
+    <!--Fonts-->
     <link
       href="http://fonts.googleapis.com/css?family=Sintony:400,700"
       rel="stylesheet"
@@ -28,7 +28,7 @@
       type="text/css"
     />
 
-    <!-- CSS -->
+    <!--CSS-->
     <link rel="stylesheet" href="style/main.css" />
     <link rel="stylesheet" href="style/normalize.css" />
   </head>
@@ -50,7 +50,7 @@
         </ul>
       </nav>
     </header>
-    <!-- header -->
+    <!--header-->
 
     <section id="hero-section">
       <h1 id="hero__title">cutting edge WP business theme</h1>
@@ -60,7 +60,7 @@
       <a id="hero__btn" href="#">BUY IT NOW</a>
     </section>
 
-    <!-- container card-->
+    <!--container card-->
     <div class="container">
       <section id="user-card-section">
         <article class="user-card__article">
@@ -128,9 +128,9 @@
         </article>
       </section>
     </div>
-    <!-- container card-->
+    <!--container card-->
 
-    <!-- container contend-->
+    <!--container contend-->
     <section id="contend">
       <div class="container">
         <article class="contend__anticle">
@@ -172,19 +172,17 @@
         </article>
       </div>
     </section>
-    <!-- container contend-->
+    <!--container contend-->
 
-    <!-- container latest-->
+    <!--container latest-->
     <section id="latest-section">
       <div class="latest-section__title">
-        <h2>Latest Articles</h2>
+        <div class="container">
+          <h2>Latest Articles</h2>
+        </div>
       </div>
 
-<<<<<<< HEAD
-      <div id="latest-section__thumbs">
-=======
       <div class="latest-section__thumbs">
->>>>>>> a9e24d01a5bffcdb0d36f0ddb69db77d002a3fda
         <a href="#"><img src="img/articles/01.jpg" alt="" /></a>
         <a href="#"><img src="img/articles/02.jpg" alt="" /></a>
         <a href="#"><img src="img/articles/03.jpg" alt="" /></a>
@@ -199,66 +197,81 @@
         <a href="#"><img src="img/articles/12.jpg" alt="" /></a>
       </div>
     </section>
+    <!--container latest-->
 
-    <div>
-      <div class="container-img">
+    <!--contaier slide-->
+    <div id="laptop-slider">
+      <div class="container-img__laptop-slider">
         <figure><img alt="" src="img/slider/slide-01.png" /></figure>
         <figure><img alt="" src="img/slider/slide-02.png" /></figure>
         <figure><img alt="" src="img/slider/slide-01.png" /></figure>
         <figure><img alt="" src="img/slider/slide-02.png" /></figure>
-        <span class="prev"><i class="fas fa-angle-left fa-4x"></i></span>
-        <span class="next"><i class="fas fa-angle-right fa-4x"></i></span>
+        <span style="display: none" class="prev"
+          ><i class="fas fa-angle-left fa-4x"></i
+        ></span>
+        <span style="display: none" class="next"
+          ><i class="fas fa-angle-right fa-4x"></i
+        ></span>
       </div>
     </div>
+    <!--contaier slide-->
 
     <section id="latest-section-contend">
-      <div>
-        <figure>
-          <h2>
-            Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent
-            vitae lorem et elit tincidunt accumsan suscipit eu libero.
-          </h2>
-          <figcaption>Nam mi enim, auctor non ultricies.</figcaption>
-        </figure>
-        <figure>
-          <h2>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.
-          </h2>
-          <figcaption>Nam mi enim, auctor.</figcaption>
-        </figure>
+      <div class="container">
+        <div class="quote-sledeshow">
+          <figure>
+            <h2>
+              Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent
+              vitae lorem et elit tincidunt accumsan suscipit eu libero.
+            </h2>
+            <figcaption>Nam mi enim, auctor non ultricies.</figcaption>
+          </figure>
+          <figure>
+            <h2>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              mattis suscipit est, ut imperdiet tortor. Proin sed molestie
+              massa.
+            </h2>
+            <figcaption>Nam mi enim, auctor.</figcaption>
+          </figure>
+        </div>
+
+        <span style="display: none" class="prev"
+          ><i class="fas fa-angle-left fa-2x"></i
+        ></span>
+        <span style="display: none" class="next"
+          ><i class="fas fa-angle-right fa-2x"></i
+        ></span>
       </div>
-
-      <span class="prev"><i class="fas fa-angle-left fa-2x"></i></span>
-      <span class="next"><i class="fas fa-angle-right fa-2x"></i></span>
     </section>
-    <!-- container latest-->
 
-    <footer>
-      <h2>INFUSION</h2>
+    <footer id="footer">
+      <div class="container">
+        <h2>infusion</h2>
 
-      <p>
-        Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae
-        lorem et elit tincidunt accumsan suscipit eu libero. Maecenas diam est,
-        venenatis vitae dui in, vestibulum mollis arcu. Donec eu nibh tincidunt,
-        dapibus sem eu, aliquam dolor. Cum sociis natoque penatibus et magnis
-        dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur
-        commodo eros, vitae laoreet lectus aliq
-      </p>
+        <p>
+          Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent
+          vitae lorem et elit tincidunt accumsan suscipit eu libero. Maecenas
+          diam est, venenatis vitae dui in, vestibulum mollis arcu. Donec eu
+          nibh tincidunt, dapibus sem eu, aliquam dolor. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Vestibulum consectetur commodo eros, vitae laoreet lectus aliq
+        </p>
 
-      <p>
-        aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient
-        montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros,
-        vitae laoreet lectus aliq
-      </p>
+        <p>
+          aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros,
+          vitae laoreet lectus aliq
+        </p>
 
-      <ul>
-        <li><a href="#">List One</a></li>
-        <li><a href="#">Page Two</a></li>
-        <li><a href="#">Design</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact Me</a></li>
-      </ul>
+        <ul>
+          <li><a href="#">List One</a></li>
+          <li><a href="#">Page Two</a></li>
+          <li><a href="#">Design</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
