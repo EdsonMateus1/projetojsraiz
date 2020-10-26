@@ -96,6 +96,7 @@ ul {
   top: 100px;
 }
 #header__nav ul li {
+  width: 100vw;
   list-style: none;
   text-transform: uppercase;
   background-color: #242c2c;
@@ -429,6 +430,7 @@ ul {
   }
 
   #header__nav ul li {
+    width: auto;
     background-color: #fff;
     border: none;
   }
