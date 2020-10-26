@@ -37,10 +37,13 @@
     <header id="header">
       <a id="logo-text" href="index.html">Infusion</a>
 
-      <button id="header__btm-menu">Menu</button>
+      <button style="display: none" id="header__btm-menu">
+        <i class="fas fa-bars"></i>
+        <span class="sr-only">Menu</span>
+      </button>
 
-      <nav id="header__nav">
-        <ul>
+      <nav id="header__nav" class="menu-none">
+        <ul id="flex__header__nav">
           <li><a href="#">design folio</a></li>
           <li><a href="#">services</a></li>
           <li><a href="#">our business</a></li>
@@ -251,16 +254,15 @@
         <p>
           Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent
           vitae lorem et elit tincidunt accumsan suscipit eu libero. Maecenas
-          diam est, venenatis vitae dui in, <br />
-          vestibulum mollis arcu. Donec eu nibh tincidunt, dapibus sem eu,
-          aliquam dolor. Cum sociis <br />
-          natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-          mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq
+          diam est, venenatis vitae dui in, vestibulum mollis arcu. Donec eu
+          nibh tincidunt, dapibus sem eu, aliquam dolor. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Vestibulum consectetur commodo eros, vitae laoreet lectus aliq
         </p>
         <p>
           aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient
-          montes, nascetur ridiculus mus.<br />
-          Vestibulum consectetur commodo eros, vitae laoreet lectus aliq
+          montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros,
+          vitae laoreet lectus aliq
         </p>
 
         <ul>
@@ -272,5 +274,7 @@
         </ul>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
