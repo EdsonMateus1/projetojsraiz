@@ -48,6 +48,8 @@ ul {
   flex-direction: column;
   justify-content: center;
   height: 130px;
+  position: sticky;
+  top: 0px;
 }
 .js #header {
   position: fixed;
